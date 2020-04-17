@@ -14,11 +14,11 @@ $(document).ready(function(){
         var dato = data.response;
         if (dato <= 5 && !questoSquare.hasClass("active")){
           questoSquare.addClass("giallo");
-          questoSquare.addClass("active");
+          questoSquare.addClass("active"); // BOOOOOOONUUUUUSSSSS
           questoSquare.text(dato);
         } else if (dato > 5 && !questoSquare.hasClass("active")){
           questoSquare.addClass("verde");
-          questoSquare.addClass("active");
+          questoSquare.addClass("active"); // BOOOOOONUUUUUSSS
           questoSquare.text(dato);
         }
       },
