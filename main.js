@@ -18,7 +18,7 @@ $(document).ready(function(){
           questoSquare.text(dato);
         } else if (dato > 5 && !questoSquare.hasClass("active")){
           questoSquare.addClass("verde");
-          questoSquare.addClass("active"); // BOOOOOONUUUUUSSS
+          questoSquare.addClass("active"); // BOOOOOONUUUUUSS
           questoSquare.text(dato);
         }
       },
